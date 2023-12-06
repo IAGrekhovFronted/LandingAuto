@@ -1,0 +1,98 @@
+@mixin h1 {
+    font-size: 64px / 16px *1rem;
+    line-height: 84px / 16px *1rem;
+    font-weight: 800;
+    letter-spacing: -3%;
+}
+@mixin h2 {
+    font-size: 58px / 16px *1rem;
+    line-height: 76px / 16px *1rem;
+    font-weight: 800;
+    letter-spacing: -3%;
+}
+@mixin h3 {
+    font-size: 48px / 16px *1rem;
+    line-height: 140%;
+    font-weight: 700;
+    letter-spacing: -3%;
+}
+@mixin h4 {
+    font-size: 40px / 16px *1rem;
+    line-height: 140%;
+    font-weight: 700;
+    letter-spacing: -3%;
+}
+@mixin titleOne {
+    font-size: 32px / 16px *1rem;
+    line-height: 48px / 16px *1rem;
+    font-weight: 700;
+    letter-spacing: -3%;
+}
+@mixin titleTwo {
+    font-size: 24px / 16px *1rem;
+    line-height: 36px / 16px *1rem;
+    font-weight: 700;
+    letter-spacing: -3%;
+}
+@mixin bodyOne {
+    font-size: 18px / 16px *1rem;
+    line-height: 175%;
+    font-weight: 600;
+}
+@mixin bodyTwo {
+    font-size: 16px / 16px *1rem;
+    line-height: 28px / 16px *1rem;
+    font-weight: 600;
+}
+@mixin caption {
+    font-size: 16px / 16px *1rem;
+    line-height: 24px / 16px *1rem;
+    font-weight: 500;
+}
+@mixin headingSix {
+    font-size: 20px / 16px *1rem;
+    line-height: 150%;
+    font-weight: 600;
+    letter-spacing: -3%;
+}
+@mixin headingFive {
+    font-size: 32px / 16px *1rem;
+    line-height: 48px / 16px *1rem;
+    font-weight: 700;
+    letter-spacing: -3%;
+}
+@mixin buttonOrange {
+    height: 65.08px / 16px *1rem;
+    width: 203px / 16px *1rem;
+    font-size: 18px / 16px *1rem;
+    border-radius: 12px;
+    color: white;
+    background-color: #FF6433;
+}
+@mixin offerItem {
+    height: 232px / 16px *1rem;
+    width: 316px / 16px *1rem;
+    background-color: #fff;
+    display: inline-block;
+    margin-bottom: 4px;
+    padding-top: 73px;
+    @include titleTwo;
+}
+@mixin blogItem {
+    height: 606px / 16px *1rem;
+    width: 266px / 16px *1rem;
+}
+@mixin blogFoto {
+    height: 405px / 16px *1rem;
+    width: 266px / 16px *1rem;
+}
+@mixin questionsItems {
+    height: 112px / 16px *1rem;
+    width: 896px / 16px *1rem;
+}
+@mixin questionsButton {
+    height: 51.08px / 16px *1rem;
+    width: 48px / 16px *1rem;
+    background-color: #FF6433;
+    color: white;
+}
